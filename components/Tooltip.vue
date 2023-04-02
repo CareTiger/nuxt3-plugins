@@ -4,7 +4,7 @@
         <div>
             <ClientOnly>
                 <button v-tooltip="'You have ' + count + ' new messages.'">
-                    Messages
+                    Hover over me
                 </button>
             </ClientOnly>
         </div>
@@ -13,5 +13,7 @@
 <script setup>
 // https://floating-vue.starpad.dev/
 // https://github.com/Akryum/floating-vue
+// https://github.com/Akryum/floating-vue/issues/820
+// https://github.com/Akryum/floating-vue/issues/807
 const count = ref(5);
 </script>
