@@ -3,21 +3,22 @@
         <h1>Star rating</h1>
         <p class="flex flex-row justify-start items-center">
             <client-only>
-                <vue3-star-ratings
-                    :showControl="false"
-                    v-model="rating"
-                    @click="showRating()"
+                <StarRating
+                    :inline="true"
+                    :star-size="15"
+                    :round-start-rating="false"
+                    :show-rating="false"
+                    @update:rating="setRating"
                 />
             </client-only>
         </p>
     </div>
 </template>
 <script setup>
-// https://www.npmjs.com/package/vue3-star-ratings
 // https://github.com/craigh411/vue-star-rating
-const rating = ref();
-
-function showRating() {
-    console.log(rating.value);
+const rating = ref(0);
+function setRating(rating) {
+    rating = rating;
+    console.log(rating);
 }
 </script>

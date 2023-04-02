@@ -1,5 +1,5 @@
 export default defineNuxtPlugin((/* nuxtApp */) => {
-    console.log("Hello from my basic plugin!");
+    console.log("basic plugin!");
     return {
         provide: {
             myPlugin: "String generated from my auto-imported plugin!",
