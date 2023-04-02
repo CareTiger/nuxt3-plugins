@@ -7,5 +7,6 @@ import { Star3 } from '~~/.nuxt/components';
         <Toast />
         <Star />
         <Star3 />
+        <Tooltip />
     </div>
 </template>

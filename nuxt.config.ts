@@ -13,4 +13,5 @@ export default defineNuxtConfig({
             "process.env.DEBUG": false,
         },
     },
+    buildModules: ["floating-vue/nuxt"],
 });

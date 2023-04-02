@@ -3,13 +3,13 @@
         <h1>Star rating</h1>
         <p class="flex flex-row justify-start items-center">
             <client-only>
-                <StarRating
+                <!-- <StarRating
                     :inline="true"
                     :star-size="15"
                     :round-start-rating="false"
                     :show-rating="false"
                     @update:rating="setRating"
-                />
+                /> -->
             </client-only>
         </p>
     </div>
@@ -17,8 +17,8 @@
 <script setup>
 // https://github.com/craigh411/vue-star-rating
 const rating = ref(0);
-function setRating(rating) {
-    rating = rating;
-    console.log(rating);
+function setRating(payload) {
+    rating.value = payload;
+    console.log(rating.value);
 }
 </script>
