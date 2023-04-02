@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "nuxt": "^3.3.2"
+  },
+  "dependencies": {
+    "@asigloo/vue-dynamic-forms": "^3.18.1",
+    "@mdi/font": "^7.2.96",
+    "@nuxtjs/tailwindcss": "^6.6.5",
+    "sass": "^1.60.0",
+    "vue-star-rating": "^2.1.0",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue3-star-ratings": "^1.1.0",
+    "vuetify": "^3.1.4"
+  }
+}
