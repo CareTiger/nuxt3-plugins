@@ -1,6 +1,6 @@
 <template>
     <div class="m-4 p-4 border border-slate-400 rounded-lg">
-        <h1>Star rating</h1>
+        <h1>Star rating (DOES NOT WORK)</h1>
         <p class="flex flex-row justify-start items-center">
             <client-only>
                 <!-- <StarRating
